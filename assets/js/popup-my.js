@@ -17,7 +17,7 @@ $V.view.insertThead = 'Action';
 $V.view.insertBtnHtml = '<button type="button" class="insertBtn btn btn-primary btn-sm">Insert</button>';
 $V.view.submitBtnHtml = '<button type="submit" class="submitBtn btn btn-danger btn-sm">Submit</button>';
 
-$V.debug = true;
+$V.debug = false;
 $V.debugData = 'id1,user1,12345678901\n\
 id2,user2,12345678902\n\
 id3,user3,12345678903\n\

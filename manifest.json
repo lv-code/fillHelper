@@ -2,17 +2,17 @@
 	"manifest_version": 2,
 
 	"name": "fillHelper",
-	"description": "a tool to help you fill form input with csv data",
+	"description": "a tool to help you fill form with csv data",
 	"version": "1.0.1",
 	"icons":{
-		"16":"assets/fillHelper.png",
-		"48":"assets/fillHelper.png",
-		"128":"assets/fillHelper.png"
+		"16":"assets/fillHelper16.png",
+		"48":"assets/fillHelper48.png",
+		"128":"assets/fillHelper128.png"
 	},
 	"homepage_url": "https://github.com/lv-code/fillHelper",
 	"content_security_policy": "script-src 'self'; object-src 'self'",
 	"browser_action": {
-		"default_icon": "assets/fillHelper.png",
+		"default_icon": "assets/fillHelper48.png",
 		"default_title": "fillHelper"
 	},
 	"background": {
@@ -20,7 +20,6 @@
 	},
 	"permissions": [
 		"activeTab",
-		"http://c.csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js",
 		"storage",
 		"tabs",
 		"webNavigation",
